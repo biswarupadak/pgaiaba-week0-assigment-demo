@@ -55,7 +55,7 @@ and ends the conversation.
 
 ## Setup
 
-Tested with Python 3.13. The notebook's deployment guide uses 3.12.
+Tested with Python 3.13 and 3.14. The notebook's deployment guide uses 3.12.
 
 ```bash
 python -m venv .venv
@@ -101,5 +101,5 @@ The tests use the real `kartify.db` and fake LLMs, so they run offline and for f
 ## Deploying to Streamlit Community Cloud
 
 Push this repo to GitHub, create an app with `app.py` as the entry point
-(Python 3.12 under *Advanced settings*), and add `OPENAI_API_KEY` under
+(Python 3.14 under *Advanced settings*), and add `OPENAI_API_KEY` under
 *Secrets*. Don't commit `config.json`.
